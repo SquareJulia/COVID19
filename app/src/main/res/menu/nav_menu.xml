@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/news"
+            android:title="新闻" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/message"
+            android:title="意见反馈"/>
+        <item
+            android:id="@+id/nav_light"
+            android:icon="@drawable/light"
+            android:title="祈福孔明灯"/>
+    </group>
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/news_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#C1FFC1"
+        android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/titles"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/news_toolbar"/>
+
+<!--   <androidx.recyclerview.widget.RecyclerView-->
+<!--       android:id="@+id/news"-->
+<!--       android:layout_below="@id/titles"-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="wrap_content"/>-->
+
+    <LinearLayout
+        android:id="@+id/replace"
+        android:orientation="vertical"
+        android:layout_below="@+id/titles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

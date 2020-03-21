@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/main_background"
+        android:id="@+id/layout_before">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bless_text"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:text="我是全球第1000000个送祝福的人"
+                android:textColor="#000000"
+                android:textSize="30sp"/>
+
+            <EditText
+                android:id="@+id/own_bless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:hint="点击添加你的祝福"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="30sp"
+            android:textColor="#000000"/>
+        <ImageView
+            android:id="@+id/finish_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/light"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>
